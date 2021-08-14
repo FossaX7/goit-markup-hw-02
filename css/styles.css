@@ -25,11 +25,15 @@
 .logo-left {
   color: var(--accent-color);
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
 }
 
+.header-list .active-link {
+  color: var(--accent-color);
+}
 /* ----------------HEADER------------- */
 
 .header-link,

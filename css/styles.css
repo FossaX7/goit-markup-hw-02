@@ -32,7 +32,9 @@ body {
 
 /* ----------------HEADER------------- */
 
-.header-link {
+.header-link,
+.header-tel,
+.header-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -47,9 +49,6 @@ body {
 
 .header-tel,
 .header-mail {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 
@@ -59,6 +58,7 @@ body {
 .header-mail:focus {
   color: var(--accent-color);
 }
+/* ++++++++++++++++++INDEX.HTML++++++++++++++++++ */
 
 /* ----------------HERO------------- */
 
@@ -83,6 +83,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* ----------------FEATURES------------- */
@@ -145,4 +146,40 @@ body {
 .footer-link-mail,
 .footer-link-tel {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* ++++++++++++++++++PORTFOLIO.HTML++++++++++++++++++ */
+
+/* ----------------PORTFOLIO------------- */
+
+.button-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.button-btn:hover,
+.button-btn:focus {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
